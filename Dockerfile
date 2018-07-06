@@ -8,3 +8,4 @@ RUN  apt update && \
      cp rancher-compose-v0.9.2/rancher-compose /usr/bin/ && \
      rm -r rancher-compose-v0.9.2
 
+CMD ["bash"]
